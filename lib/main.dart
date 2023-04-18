@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
   void _addNewTransaction(String txTittle, double txAmount){
-    final newtx= Transaction(id: DateTime.now().toString(), tittle: txTittle, amount: txAmount, Date:DateTime.now(),
+    final newtx= Transaction(id: DateTime.now().toString(), tittle: txTittle, amount: txAmount, date:DateTime.now(),
     );
     setState(() {
       _userTransactions.add(newtx);
@@ -90,7 +90,7 @@ void _startAddNewTransaction(BuildContext ctx){
             children: [
             Container(
               width: double.infinity,
-              child: Card(color: Theme.of(context).primaryColor,child: Text('CHART!'),
+              child: Card(color: Theme.of(context).primaryColor,child: Text('CHART'),
               elevation: 5,
               ),
             ),

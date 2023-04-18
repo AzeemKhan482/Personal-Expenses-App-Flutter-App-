@@ -4,8 +4,8 @@ class Transaction {
   String ?id;
   String ?tittle;
   double ?amount;
-  DateTime ?Date;
+  DateTime ?date;
  Transaction({
-   @required this.id,@required this. tittle,@required this.amount, this.Date});
+   @required this.id,@required this. tittle,@required this.amount, this.date});
 
 }
