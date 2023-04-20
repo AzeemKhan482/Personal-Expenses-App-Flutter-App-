@@ -31,7 +31,7 @@ TransactionList(this.transactions);
               children: [
                 Text(transactions[index].tittle.toString(),style: Theme.of(context).textTheme.headline6),
                 Text(
-                  DateFormat.yMMMd().format(transactions[index].Date as DateTime),
+                  DateFormat.yMMMd().format(transactions[index].date as DateTime),
 
                   style: TextStyle(color: Colors.grey),),
               ],)
